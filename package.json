@@ -1,0 +1,25 @@
+{
+  "name": "unittest_example_tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:@babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtr860830/UnitTest_Example_TDD.git"
+  },
+  "author": "Jezrien Hsieh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtr860830/UnitTest_Example_TDD/issues"
+  },
+  "homepage": "https://github.com/jtr860830/UnitTest_Example_TDD#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/register": "^7.0.0",
+    "mocha": "^5.2.0"
+  }
+}
