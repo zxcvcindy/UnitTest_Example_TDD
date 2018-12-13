@@ -1,5 +1,5 @@
 import * as assert from 'assert'
-import { add, minus } from '../cal.js'
+import { add, minus } from '../cal'
 
 describe('add function', function () {
   it('add(1, 2) = 3', function () {
