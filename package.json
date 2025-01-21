@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "mocha --compilers js:@babel/register"
+    "test": "node ./tests/*"
   },
   "repository": {
     "type": "git",
@@ -15,11 +16,5 @@
   "bugs": {
     "url": "https://github.com/jtr860830/UnitTest_Example_TDD/issues"
   },
-  "homepage": "https://github.com/jtr860830/UnitTest_Example_TDD#readme",
-  "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/register": "^7.5.5",
-    "mocha": "^5.2.0"
-  }
+  "homepage": "https://github.com/jtr860830/UnitTest_Example_TDD#readme"
 }
